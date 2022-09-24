@@ -29,14 +29,7 @@ go run server.go
 ```
 Then open your browser and go to `localhost:8080`
 
-Create a program `clientTCP` that will take 2 parameters at the start
-* First: IP Adress
-* Second: Port
-
-Run your client by typing:
-```
-go run clientTCP.go localhost 8081
-```
+You can learn how to create a Golang HTTP server by following [this documentation](https://blog.logrocket.com/creating-a-web-server-with-golang/)
 
 ## Part 1 --- Basics
 * First, the program must connect to the server provided in parameters (cf: [Net package documentation](https://pkg.go.dev/net))
